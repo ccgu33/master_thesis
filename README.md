@@ -5,7 +5,7 @@ Hey there! 👋 This is my master thesis project where I explore coral bleaching
 ![Code Folder Structure](diagram.png)
 
 ## What's in this repo?
-- **95 total files** 
+- **76 total files** 
 - **11 main folders** 
 - **14 R scripts** 
 - **16 Stan models** 
