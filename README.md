@@ -1,11 +1,10 @@
 # Bayesian Inference of Coral Bleaching Dynamics
 
-Hey there! 👋 This is my master thesis project where I explore coral bleaching dynamics using Bayesian methods. I've built several hierarchical models to understand how coral cover changes across different reefs over time.
 
 ![Code Folder Structure](diagram.png)
 
 ## What's in this repo?
-- **76 total files** 
+- **95 total files** 
 - **11 main folders** 
 - **14 R scripts** 
 - **16 Stan models** 
@@ -15,39 +14,39 @@ Hey there! 👋 This is my master thesis project where I explore coral bleaching
 
 The repository is organized into 11 main directories:
 
-1. **1. pooling_methods/**: This is where the main modeling happens!
+1. **01. pooling_methods/**: This is where the main modeling happens!
    - **r_file/**: 4 R scripts for 4 different pooling approaches
    - **stan_file/**: The corresponding 6 Stan models I wrote
    - **rds/**: Saved model fits
 
-2. **2. prior_check_r_stan_plot/**: Prior distribution analysis
+2. **02. prior_check_r_stan_plot/**: Prior distribution analysis
    - **prior_check_r_file/**: R scripts for 4 different prior checks
    - **prior_check_stan_file/**: 4 Stan models with different prior specifications
    - **prior_check_rds/**: RDS files for prior check results
 
-3. **3. posterier_predictive_check/**: Model validation
+3. **03. posterier_predictive_check/**: Model validation
    - 3 R scripts for Bayesian p-values, posterior predictive checks
 
-4. **4. leave_one_out_validation/**: Cross-validation analysis
+4. **04. leave_one_out_validation/**: Cross-validation analysis
    - **r file/**: 2 R scripts for LOO validation and plotting
    - **rds/**: RDS files with LOO comparison results
 
-5. **5. mcmc_diagnostics/**: Making sure my MCMC chains converged properly
+5. **05. mcmc_diagnostics/**: Making sure my MCMC chains converged properly
    - Checked for divergences and other sampling issues
 
-6. **6. pooling_method_for_sparse_data/**: Sparse data analysis
+6. **06. pooling_method_for_sparse_data/**: Sparse data analysis
    - **r_file/**: R script for partial pooling with sparse data
    - **rds/**: RDS files with sparse data model fits
 
-7. **7. prediction_for_unseen_data/**: Out-of-sample prediction
+7. **07. prediction_for_unseen_data/**: Out-of-sample prediction
    - **r_file/**: R script for predicting on new data
    - **rds/**: RDS files with prediction results
 
 
-8. **8. plots/**: Visualization outputs
+8. **08. plots/**: Visualization outputs
    - different types of plots (prior checks, posterior predictions, etc.)
 
-9. **9. master_thesis/**: My master thesis document
+9. **09. master_thesis/**: My master thesis document
 
 10. **10. data/**: Raw and processed coral data
 
