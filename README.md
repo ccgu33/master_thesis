@@ -34,4 +34,4 @@ Each R script in the `r_file` directory corresponds to a different pooling metho
 
 ## Author
 
-Chen Gu 
+Chen Gu
