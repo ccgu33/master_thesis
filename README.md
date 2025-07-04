@@ -1,39 +1,39 @@
 # Bayesian Inference of Coral Bleaching Dynamics
 
-This repository contains the code and analysis for my master thesis on Bayesian inference of coral bleaching dynamics. The project uses hierarchical Bayesian models to analyze coral cover data and understand bleaching patterns across different reefs.
+Hey there! 👋 This is my master thesis project where I explore coral bleaching dynamics using Bayesian methods. I've built several hierarchical models to understand how coral cover changes across different reefs over time.
 
-## Repository Statistics
+![Code Folder Structure](diagram.png)
 
-The repository contains a comprehensive collection of files for Bayesian analysis:
-- **Total Files**: 95 files
-- **Directories**: 11 main directories with multiple subdirectories
-- **R Scripts**: 14 R files for data processing, analysis, and visualization
-- **Stan Models**: 16 Stan model files for Bayesian inference
-- **RDS Files**: 27 RDS files containing saved data and model fits
+## What's in this repo?
+- **95 total files** 
+- **11 main folders** 
+- **14 R scripts** 
+- **16 Stan models** 
+- **27 RDS files** 
 
-## Project Structure
+## Folder Structure
 
 The repository is organized into 11 main directories:
 
-1. **1. pooling_methods/**: Implementation of different pooling approaches
-   - **r_file/**: 5 R scripts for complete, no, and partial pooling models
-   - **stan_file/**: 6 Stan model files for Bayesian inference
-   - **rds/**: 14 RDS files with model data and fitted objects
+1. **1. pooling_methods/**: This is where the main modeling happens!
+   - **r_file/**: 4 R scripts for 4 different pooling approaches
+   - **stan_file/**: The corresponding 6 Stan models I wrote
+   - **rds/**: Saved model fits
 
 2. **2. prior_check_r_stan_plot/**: Prior distribution analysis
-   - **prior_check_r_file/**: R scripts for prior checks
+   - **prior_check_r_file/**: R scripts for 4 different prior checks
    - **prior_check_stan_file/**: 4 Stan models with different prior specifications
    - **prior_check_rds/**: RDS files for prior check results
 
 3. **3. posterier_predictive_check/**: Model validation
-   - 3 R scripts for Bayesian p-values and posterior predictive checks
+   - 3 R scripts for Bayesian p-values, posterior predictive checks
 
 4. **4. leave_one_out_validation/**: Cross-validation analysis
    - **r file/**: 2 R scripts for LOO validation and plotting
    - **rds/**: RDS files with LOO comparison results
 
-5. **5. mcmc_diagnostics/**: MCMC convergence analysis
-   - R scripts for diagnosing MCMC sampling quality
+5. **5. mcmc_diagnostics/**: Making sure my MCMC chains converged properly
+   - Checked for divergences and other sampling issues
 
 6. **6. pooling_method_for_sparse_data/**: Sparse data analysis
    - **r_file/**: R script for partial pooling with sparse data
@@ -43,14 +43,13 @@ The repository is organized into 11 main directories:
    - **r_file/**: R script for predicting on new data
    - **rds/**: RDS files with prediction results
 
-8. **8. stan_file_for_pooling_method/**: 6 Stan model files (duplicates from directory 1)
 
-9. **9. plots/**: Visualization outputs
-   - Subdirectories for different types of plots (prior checks, posterior predictions, etc.)
+8. **8. plots/**: Visualization outputs
+   - different types of plots (prior checks, posterior predictions, etc.)
 
-10. **10. master_thesis/**: Thesis document files
+9. **9. master_thesis/**: My master thesis document
 
-11. **11. data/**: Raw and processed data files
+10. **10. data/**: Raw and processed coral data
 
 ## Models
 
@@ -72,16 +71,16 @@ The project implements several Bayesian modeling approaches:
 - loo (for leave-one-out cross-validation)
 - bayesplot (for MCMC diagnostics and visualization)
 
-## Usage
+Each R script can be run on its own. My typical workflow was:
 
-Each R script in the `r_file` directory corresponds to a different pooling method and can be run independently. The workflow typically involves:
+1. Clean up the messy coral data
+2. Fit models with Stan (this takes a while ⏳)
+3. Check if the MCMC sampling worked properly
+4. See if the model predictions make sense
+5. Compare different models
+6. Make pretty plots of the results
 
-1. Data preprocessing
-2. Model fitting with Stan
-3. MCMC diagnostics
-4. Posterior predictive checks
-5. Model comparison via LOO-CV
-6. Visualization of results
+Feel free to reach out if you have questions!
 
 ## Author
 
