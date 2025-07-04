@@ -23,6 +23,7 @@ The repository is organized into 10 main directories:
    - **prior_check_r_file/**: R scripts for 4 different prior checks
    - **prior_check_stan_file/**: 4 Stan models with different prior specifications
    - **prior_check_rds/**: RDS files for prior check results
+
 **03. posterier_predictive_check/**: Model validation
    - 3 R scripts for Bayesian p-values, posterior predictive checks
 
