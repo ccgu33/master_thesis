@@ -1,0 +1,43 @@
+# R specific
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Stan compiled files
+*.rds
+*.exe
+*.o
+*.hpp
+*.d
+
+# Mac OS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Large data files
+*.csv
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+*.tgz
+
+# Output files
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.html
+*.log
+
+# Temporary files
+*~
+.~lock.*
+*.tmp
+*.bak
+*.swp 
