@@ -55,7 +55,8 @@ The repository is organized into 11 main directories:
 
 **10. data/**: Raw and processed coral data
 
-**11. stan_file_for_pooling_method/**: Stan model files for different pooling approaches
+**11. funnel_reparameterization/**: R scripts for analyzing centered and non-centered parameterizations
+   - Launch scripts for ShinyStanR to visualize MCMC diagnostics
 
 ## Models
 
