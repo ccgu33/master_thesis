@@ -4,10 +4,10 @@
 ![Code Folder Structure](diagram.png)
 
 ## What's in this repo?
-- **95 total files** 
+- **71 total files** 
 - **11 main folders** 
-- **14 R scripts** 
-- **16 Stan models** 
+- **15 R scripts** 
+- **10 Stan models** 
 - **27 RDS files** 
 
 ## Folder Structure
