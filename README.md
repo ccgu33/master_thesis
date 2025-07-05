@@ -49,6 +49,7 @@ The repository is organized into 11 main directories:
    - **03. leave_one_out_validation/**: Cross-validation diagnostic plots
    - **04. prediction_for_unseen_data/**: Prediction accuracy visualizations
    - **05. coral_reef_dynamic/**: Coral reef dynamics visualizations
+   - **06. funnel_reparameterization/**: Centered and non-centered reparameterization
 
 **09. master_thesis/**: My master thesis document
 
