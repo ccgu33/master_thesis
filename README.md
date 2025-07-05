@@ -12,7 +12,7 @@
 
 ## Folder Structure
 
-The repository is organized into 10 main directories:
+The repository is organized into 11 main directories:
 
 **01. pooling_methods/**: This is where the main modeling happens!
    - **r_file/**: 4 R scripts for 4 different pooling approaches
@@ -44,11 +44,17 @@ The repository is organized into 10 main directories:
 
 
 **08. plots/**: Visualization outputs
-   - different types of plots (prior checks, posterior predictions, etc.)
+   - **01. prior_check/**: Prior distribution visualizations
+   - **02. posterior_prediction_check/**: Model validation plots
+   - **03. leave_one_out_validation/**: Cross-validation diagnostic plots
+   - **04. prediction_for_unseen_data/**: Prediction accuracy visualizations
+   - **05. coral_reef_dynamic/**: Coral reef dynamics visualizations
 
 **09. master_thesis/**: My master thesis document
 
 **10. data/**: Raw and processed coral data
+
+**11. stan_file_for_pooling_method/**: Stan model files for different pooling approaches
 
 ## Models
 
